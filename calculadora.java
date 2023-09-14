@@ -15,8 +15,10 @@ public static void main(String[] args) {
         sc.close();
 
         double soma = (numero1 + numero2);
+        double subtracao = (numero1 - numero2);
 
         System.out.println("Soma = " + soma);
-;
-}
+        System.out.println("Subtração = " + subtracao);
+
+    }
 }
