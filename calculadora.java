@@ -18,12 +18,14 @@ public static void main(String[] args) {
         double subtracao = (numero1 - numero2);
         double multiplicacao = (numero1 * numero2);
         double divisao = (numero1 / numero2);
+        double modificador = (numero1 % numero2);
 
 
         System.out.println("Soma = " + soma);
         System.out.println("Subtração = " + subtracao);
         System.out.println("Multiplicação = " + multiplicacao);
         System.out.println("Divisão = " + divisao);
-        
+        System.out.println("Modificador = " + modificador);
+
     }
 }
